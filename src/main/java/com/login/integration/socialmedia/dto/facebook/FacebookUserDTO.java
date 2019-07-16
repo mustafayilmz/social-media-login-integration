@@ -3,14 +3,10 @@ package com.login.integration.socialmedia.dto.facebook;
 public class FacebookUserDTO {
     private String id;
     private String name;
-    private String link;
-    private String username;
     private String email;
-    private String pic;
-    private String gender;
 
     public String getId() {
-        return this.id;
+        return id;
     }
 
     public void setId(String id) {
@@ -18,50 +14,18 @@ public class FacebookUserDTO {
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public String getLink() {
-        return this.link;
-    }
-
-    public void setLink(String link) {
-        this.link = link;
-    }
-
-    public String getUsername() {
-        return this.username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
     public String getEmail() {
-        return this.email;
+        return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getPic() {
-        return this.pic;
-    }
-
-    public void setPic(String pic) {
-        this.pic = pic;
-    }
-
-    public String getGender() {
-        return this.gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
     }
 }
